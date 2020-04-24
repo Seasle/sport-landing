@@ -11,7 +11,7 @@ const changeImage = () => {
 		}
 	});
 
-	index < elements.length - 1 ? index++ : index = 0;
+	currentIndex < elements.length - 1 ? currentIndex++ : currentIndex = 0;
 };
 
 setInterval(changeImage, 5000);
